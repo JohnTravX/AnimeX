@@ -7,20 +7,21 @@ const FooterComponent = () => {
           <Footer container>
               <Footer.Copyright
                   by="AnimeX"
+                  className='text-gray-900 text-md'
                   href="#"
                   year={2023}
               />
               <Footer.LinkGroup>
-                  <Footer.Link href="#">
+                  <Footer.Link href="#" className='text-gray-900 text-md'>
                       About
                   </Footer.Link>
-                  <Footer.Link href="#">
+                  <Footer.Link href="#" className='text-gray-900 text-md'>
                       Privacy Policy
                   </Footer.Link>
-                  <Footer.Link href="#">
+                  <Footer.Link href="#" className='text-gray-900 text-md'>
                       Licensing
                   </Footer.Link>
-                  <Footer.Link href="#">
+                  <Footer.Link href="#" className='text-gray-900 text-md'>
                       Contact
                   </Footer.Link>
               </Footer.LinkGroup>
