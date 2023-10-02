@@ -6,32 +6,35 @@ const NavbarComponent = () => {
         <div>
             <Navbar fluid rounded>
                 <h1 className='text-black font-bold text-2xl'>AnimeX</h1>
-                <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-                    Flowbite React
-                </span>
                 <Navbar.Toggle />
                 <Navbar.Collapse>
                     <Navbar.Link
                         active
                         href="#"
                     >
-                        <p>
+                        <p className='text-base font-semibold'>
                             Home
                         </p>
                     </Navbar.Link>
                     <Navbar.Link>
-                        <p>
+                        <p className='text-base font-semibold'>
                             About
                         </p>
                     </Navbar.Link>
                     <Navbar.Link href="#">
-                        Services
+                        <p className='text-base font-semibold'>
+                            Services
+                        </p>
                     </Navbar.Link>
                     <Navbar.Link href="#">
-                        Pricing
+                        <p className='text-base font-semibold'>
+                            Pricing
+                        </p>
                     </Navbar.Link>
                     <Navbar.Link href="#">
-                        Contact
+                        <p className='text-base font-semibold'>
+                            Contact
+                        </p>
                     </Navbar.Link>
                 </Navbar.Collapse>
             </Navbar>
