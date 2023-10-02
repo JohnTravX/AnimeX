@@ -12,27 +12,27 @@ const NavbarComponent = () => {
                         active
                         href="#"
                     >
-                        <p className='text-base font-semibold'>
+                        <p className='text-base '>
                             Home
                         </p>
                     </Navbar.Link>
                     <Navbar.Link>
-                        <p className='text-base font-semibold'>
+                        <p className='text-base '>
                             About
                         </p>
                     </Navbar.Link>
                     <Navbar.Link href="#">
-                        <p className='text-base font-semibold'>
+                        <p className='text-base '>
                             Services
                         </p>
                     </Navbar.Link>
                     <Navbar.Link href="#">
-                        <p className='text-base font-semibold'>
+                        <p className='text-base '>
                             Pricing
                         </p>
                     </Navbar.Link>
                     <Navbar.Link href="#">
-                        <p className='text-base font-semibold'>
+                        <p className='text-base '>
                             Contact
                         </p>
                     </Navbar.Link>
